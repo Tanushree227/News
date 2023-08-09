@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Link from "next/link";
 
 function NewsPage()
 {
@@ -6,7 +7,7 @@ function NewsPage()
         <Fragment>
             <h1>The News Page</h1>
             <ul>
-                <li><a href="news/NextJs">NextJs is a great framework.</a></li>
+                <li><Link href="news/NextJs">NextJs is a great framework.</Link></li>
                 <li>ReactJs is a library.</li>
             </ul>
         </Fragment>
